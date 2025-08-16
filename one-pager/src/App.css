@@ -7,9 +7,10 @@
 
 /* Container */
 .container {
-  max-width: 80%;
-  margin: 0 auto;
+  max-width: 40%;
+  margin: 10px auto;
   background: #fff;
+  box-shadow: #111;
 }
 
 /* Body */
@@ -27,38 +28,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 10px 40px;
 }
 
 /* LOGO */
-.logo {
-  display: flex;
-  flex-direction: column;
-  line-height: 1;
-}
-.logo h2 {
-  margin: 0;
-  font-size: 2em;
-}
-.logo p {
-  margin: 0;
-  font-size: 0.8em;
-}
+.logo {display: flex; flex-direction: column; line-height: 1;}
+.logo h2 {margin: 0; font-size: 2em;}
+.logo p {margin: 0; font-size: 0.8em;}
 
 /* NAV */
-.nav ul {
-  list-style: none;
-  display: flex;
-}
-.nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 15px;
-  transition: background 0.3s;
-}
-.nav a:hover {
-  background: #333;
-}
+.nav ul {list-style: none; display: flex;}
+.nav a {color: #fff; text-decoration: none; padding: 15px; transition: background 0.3s;}
+.nav a:hover {background: #333;}
 
 /* Hero Section */
 .hero {
@@ -124,7 +105,7 @@ body {
 /* More Info */
 .moreinfos {
   display: flex;
-  margin: 20px;
+
   position: relative; /* penting untuk overlay */
 }
 

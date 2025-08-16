@@ -20,7 +20,7 @@ https://vincent-guizot.github.io/exhibition.github.io/
 1. Command untuk membuat react
 
 ```js
-npm create vite@latest nama_folder
+npx create vite@latest nama_folder
 ```
 
 2. Untuk menjalankan react dapat dilihat dalam _package.json_
