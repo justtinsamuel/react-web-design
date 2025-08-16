@@ -1,0 +1,250 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+.header {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.logo h2 {
+  margin: 0;
+  font-size: 2em;
+}
+.logo p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+/* NAV */
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  transition: background 0.3s;
+}
+.nav a:hover {
+  background: #333;
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 2.5%;
+  background: url("https://picsum.photos/1200/400") no-repeat center
+    center/cover;
+  height: 400px;
+  border: 5px solid #111;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero p {
+  font-size: 20px;
+  max-width: 600px;
+}
+
+/* Info Sections */
+.infos {
+  display: flex;
+  gap: 50px;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.info {
+  padding: 20px;
+  background: lightblue;
+  margin: 5px auto;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.info h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.info button {
+  padding: 5px 10px;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.info button:hover {
+  background: #333;
+}
+
+/* More Info */
+.moreinfos {
+  display: flex;
+  margin: 20px;
+  position: relative; /* penting untuk overlay */
+}
+
+.moreinfo {
+  background: url("https://picsum.photos/seed/picsum/200/300") no-repeat center
+    center/cover;
+  padding: 0; /* hapus padding biar text wrapper yg atur */
+  position: relative;
+  color: #fff;
+  text-align: left;
+  max-width: 600px;
+  border: 10px solid #111;
+  overflow-wrap: normal;
+}
+
+.moreinfo2 {
+  background: url("https://picsum.photos/id/870/200/300?grayscale&blur=2")
+    no-repeat center center/cover;
+  padding: 0; /* hapus padding biar text wrapper yg atur */
+  position: relative;
+  color: #fff;
+  text-align: left;
+  max-width: 600px;
+  border: 10px solid #111;
+  overflow-wrap: normal;
+}
+
+/* wrapper khusus untuk teks */
+.moreinfo-content {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.moreinfo-content h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.moreinfo-content p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #111;
+}
+
+.moreinfo-content button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.moreinfo-content button:hover {
+  background: #333;
+}
+
+/* Others */
+.others {
+  display: flex;
+}
+
+/* Schedule Section */
+.schedule {
+  background: #eee;
+  padding: 40px 20px;
+}
+.schedule ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* News Section */
+.news {
+  padding: 40px 20px;
+  background: #fff;
+}
+.news h2 {
+  margin-bottom: 15px;
+}
+
+/* Links Section */
+.links {
+  background: #eee;
+  padding: 40px 20px;
+}
+.links ul {
+  list-style: none;
+  gap: 20px;
+  justify-content: left;
+}
+
+.links li {
+  list-style: none;
+}
+.sosmed img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  list-style: none;
+}
+.sosmed img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
